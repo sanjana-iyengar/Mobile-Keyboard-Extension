@@ -83,12 +83,12 @@ class ViewController: UIViewController {
 ## Credits
 
 - [Contributor 1](https://github.com/sanjana-iyengar)
-- [Contributor 2](link-to-github-profile)
-- Special thanks to [University](https://www.umkc.edu) for support and resources.
+- [Contributor 2](https://github.com/priyanka-adhikari30)
+- Special thanks to our [University](https://www.umkc.edu) for the support and resources.
 
 ## Contact Information
 
 For any questions, suggestions, or discussions about the project, feel free to reach out to us:
 
-- [Name](mailto:email@example.com)
+- Priyanka Adhikari
 - [Sanjana Alaham](sazh9@umkc.edu)
