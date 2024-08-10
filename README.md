@@ -38,21 +38,21 @@ How to use the project after installation. Provide examples of commands, scripts
 
 Currently Implemented Features: 
 
-Customized Keyboard Interface: Tailored keyboard layout and design optimized for ease of use and accessibility. 
+#### Customized Keyboard Interface: Tailored keyboard layout and design optimized for ease of use and accessibility. 
 
-Next Word Prediction: Intelligent next-word prediction based on user input and context to enhance typing speed and accuracy. 
+#### Next Word Prediction: Intelligent next-word prediction based on user input and context to enhance typing speed and accuracy. 
 
-Contextual Generalization: Context-aware suggestions and auto-complete options based on user behavior and language patterns.
+#### Contextual Generalization: Context-aware suggestions and auto-complete options based on user behavior and language patterns.
 
-Alert System for Sensitive Information Detection: Real-time detection of potentially sensitive information (e.g., personal details, financial information) being typed. Alerts generated to notify users and caregivers about potential privacy risks. 
+#### Alert System for Sensitive Information Detection: Real-time detection of potentially sensitive information (e.g., personal details, financial information) being typed. Alerts generated to notify users and caregivers about potential privacy risks. 
 
-Redacted Notifications for Caregivers: Caregivers receive notifications with redacted sensitive information to maintain user privacy while enabling timely intervention. 
+#### Redacted Notifications for Caregivers: Caregivers receive notifications with redacted sensitive information to maintain user privacy while enabling timely intervention. 
 
-User Account Management: Dependent and caregiver user account creation and management within the app. 
+#### User Account Management: Dependent and caregiver user account creation and management within the app. 
 
-Compatibility with Messaging Apps: Seamless integration with iMessage and popular social media/messaging platforms for comprehensive coverage. 
+#### Compatibility with Messaging Apps: Seamless integration with iMessage and popular social media/messaging platforms for comprehensive coverage. 
 
-User-Centric Design: Intuitive and easy-to-navigate interface designed with a focus on user experience.
+#### User-Centric Design: Intuitive and easy-to-navigate interface designed with a focus on user experience.
 
 ## Dependencies
 
