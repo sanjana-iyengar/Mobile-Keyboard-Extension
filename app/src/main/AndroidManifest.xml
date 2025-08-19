@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.proj.advoteck">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logonew"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logonew"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Advoteck"
+        tools:targetApi="31" >
+
+
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.advoteck.MainActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".CaregiverLoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.advoteck.CaregiverLoginActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".DependentLoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.advoteck.DependentLoginActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".RegisterCareGiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.advoteck.RegisterCareGiver" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity
+            android:name=".RegisterDependentActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.advoteck.RegisterDependentActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ViewRequests"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.advoteck.ViewRequests" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".RequestForm"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.advoteck.RequestForm" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+
+</manifest>
